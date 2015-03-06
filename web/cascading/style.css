@@ -1,0 +1,94 @@
+/*pitaside form creation*/
+
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	background-color: #C2AFAF;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+/*portfolio image grid css
+=================================*/
+h4 {
+	margin-top: 25px;
+}
+
+
+.admin{
+	margin: auto;
+	width: 800px;
+	height: auto;
+	/*background-color: #dcdcdc;*/
+	background-color: #eee;
+	background-color: rgba(86,61,124,.15);
+	border: 1px solid #ddd;
+	border: 1px solid rgba(86,61,124,.2);
+}
+/*[class="row"] {*/
+	/*margin-top: 60px;*/
+	/*margin-bottom: 20px;*/
+
+/*}*/
+[class*="col-"] {
+	overflow: hidden;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	/*margin-left: 4px;*/
+	margin-bottom: 8px;
+	background-color: #eee;
+	background-color: rgba(86,61,124,.15);
+	border: 1px solid #ddd;
+	border: 1px solid rgba(86,61,124,.2);
+}
+
+#project:hover {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*background-color: #eee;*/
+	background-color: rgba(86,61,124,.15);
+	border: 3px solid #1295bf;
+	border: 3px solid rgba(86,61,124,.2);
+	-webkit-box-shadow: inset 0 0 100px rgba(255,255,255,.5);
+	box-shadow: inset 0 0 100px rgba(212,0,0,.5);
+}
+
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+

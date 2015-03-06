@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsp">
+    <CLASSES>
+      <root url="file://C:/appengine-java-sdk-1.8.5/lib/tools/jsp" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/appengine-java-sdk-1.8.5/lib/tools/jsp" recursive="false" />
+  </library>
+</component>
